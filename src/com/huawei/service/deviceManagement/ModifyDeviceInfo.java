@@ -27,7 +27,7 @@ public class ModifyDeviceInfo {
 		String appId = Constant.APPID;
 
         //please replace the deviceId, when you use the demo.
-        String deviceId = "126727d8-8068-4e85-9635-6d5dab7b6a16";
+        String deviceId = "746d1c4d-e8d2-4fbf-8d8b-9d7cd41fab66";
         String urlModifyDeviceInfo = Constant.MODIFY_DEVICE_INFO + "/" + deviceId;
 
         //please replace the following parameter values, when you use the demo.
@@ -35,8 +35,8 @@ public class ModifyDeviceInfo {
         //The following parameter values of this demo are use the watermeter profile that already initialized to IoT platform.
         String manufacturerId= "Zhanway";
         String manufacturerName = "Zhanway";
-        String deviceType = "Sensor";
-        String model = "ZW-MNB01";
+        String deviceType = "SmartDevice";
+        String model = "ZWMNB01";
         String protocolType = "CoAP";
 
         Map<String, Object> paramModifyDeviceInfo = new HashMap<>();

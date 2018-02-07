@@ -28,7 +28,7 @@ public class DeleteDirectlyConnectedDevice {
 		String appId = Constant.APPID;
 
 		//please replace the deviceId, when you use the demo.
-        String deviceId = "eb33bc43-ee78-40b8-9351-1d5c8a885872";
+        String deviceId = "5e5435bf-0a2d-4e3f-ba65-d4c514fa0968";
         String urlDelete = Constant.DELETE_DEVICE + "/" +deviceId;
                 
         Map<String, String> header = new HashMap<>();
