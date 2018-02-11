@@ -4,7 +4,6 @@ import com.huawei.utils.Constant;
 import com.huawei.utils.HttpsUtil;
 import com.huawei.utils.JsonUtil;
 import com.huawei.utils.StreamClosedHttpResponse;
-import org.apache.http.HttpResponse;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,7 +20,7 @@ public class DiscoverNonDirectlyConnectedDevice {
         HttpsUtil httpsUtil = new HttpsUtil();
         httpsUtil.initSSLConfigForTwoWay();
 
-        // Authentication£¬get token
+        // Authenticationï¿½ï¿½get token
         String accessToken = login(httpsUtil);
 
         //Please make sure that the following parameter values have been modified in the Constant file.
@@ -80,7 +79,7 @@ public class DiscoverNonDirectlyConnectedDevice {
 
 
     /**
-     * Authentication£¬get token
+     * Authenticationï¿½ï¿½get token
      * */
     @SuppressWarnings("unchecked")
     public static String login(HttpsUtil httpsUtil) throws Exception {
