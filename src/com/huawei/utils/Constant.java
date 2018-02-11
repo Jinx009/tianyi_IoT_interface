@@ -16,12 +16,19 @@ package com.huawei.utils;
 
 public class Constant {
 
-    //please replace the IP and Port, when you use the demo.
-    public static final String BASE_URL = "https://180.101.147.89:8743"; //"https://185.11.1.143:8743";
+    //正式地址
+//    public static final String BASE_URL = "https://device.api.ct10649.com:8743";
+    
+    public static final String BASE_URL = "https://185.11.1.143:8743"; 
 
-    //please replace the appId and secret, when you use the demo.
+     //正式环境
+//    public static final String APPID = "yEExbI0JNf2n5muLXrU2AUmBOH4a";
+//    public static final String SECRET = "QzIwbB3YMF9wdwDaDgjf7m05nEka";
+    
     public static final String APPID = "Oyl4RqK0BfeAfom4vajvHgJFKsga";
     public static final String SECRET = "J3hZDszdpsnvT8ULxlzrNUgNYnka";
+    
+    
 
     /*
      *IP and port of callback url.
