@@ -34,7 +34,7 @@ public class Constant {
      *IP and port of callback url.
      *please replace the IP and Port of your Application deployment environment address, when you use the demo.
      */
-    public static final String CALLBACK_BASE_URL = "http://139.196.205.157:8080/iot/rest/notice";
+    public static final String CALLBACK_BASE_URL = "https://139.196.205.157:8443/tianyiiot/rest/notice";
 
     /*
      * complete callback url：
