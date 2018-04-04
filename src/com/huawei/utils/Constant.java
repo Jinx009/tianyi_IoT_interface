@@ -34,7 +34,7 @@ public class Constant {
      *IP and port of callback url.
      *please replace the IP and Port of your Application deployment environment address, when you use the demo.
      */
-    public static final String CALLBACK_BASE_URL = "https://139.196.205.157:8443/tianyiiot/rest/notice";
+    public static final String CALLBACK_BASE_URL = "http://106.14.94.245:8091/telcom";
 
     /*
      * complete callback url：
@@ -42,7 +42,7 @@ public class Constant {
      */
     public static final String DEVICE_ADDED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/addDevice";
     public static final String DEVICE_INFO_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateDeviceInfo";
-    public static final String DEVICE_DATA_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL;// + "/na/iocm/devNotify/v1.1.0/updateDeviceData";
+    public static final String DEVICE_DATA_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL+"/notice/na/iocm/devNotify/v1.1.0/updateDeviceDatas";
     public static final String DEVICE_DELETED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/deletedDevice";
     public static final String MESSAGE_CONFIRM_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/commandConfirmData";
     public static final String SERVICE_INFO_CHANGED_CALLBACK_URL = CALLBACK_BASE_URL + "/na/iocm/devNotify/v1.1.0/updateServiceInfo";

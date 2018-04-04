@@ -96,36 +96,36 @@ public class SubscribeNotifyResource {
         /*
          * modifyDevice_NotifyMessage content:
          */
-        //    {
-        //        "notifyType": "deviceInfoChanged",
-        //        "deviceId": "4ad0510a-a985-496f-ba91-d6e2f72994d8",
-        //        "gatewayId": "4ad0510a-a985-496f-ba91-d6e2f72994d8",
-        //        "deviceInfo": {
-        //            "nodeId": null,
-        //            "name": null,
-        //            "description": null,
-        //            "manufacturerId": "010F",
-        //            "manufacturerName": "Fibargroup",
-        //            "mac": null,
-        //            "location": null,
-        //            "deviceType": "watermeter",
-        //            "model": "0B00-1001",
-        //            "swVersion": null,
-        //            "fwVersion": null,
-        //            "hwVersion": null,
-        //            "protocolType": null,
-        //            "bridgeId": null,
-        //            "status": null,
-        //            "statusDetail": null,
-        //            "mute": null,
-        //            "supportedSecurity": null,
-        //            "isSecurity": null,
-        //            "signalStrength": null,
-        //            "sigVersion": null,
-        //            "serialNumber": null,
-        //            "batteryLevel": null
-        //        }
-        //    }
+//            {
+//                "notifyType": "deviceInfoChanged",
+//                "deviceId": "4ad0510a-a985-496f-ba91-d6e2f72994d8",
+//                "gatewayId": "4ad0510a-a985-496f-ba91-d6e2f72994d8",
+//                "deviceInfo": {
+//                    "nodeId": null,
+//                    "name": null,
+//                    "description": null,
+//                    "manufacturerId": "010F",
+//                    "manufacturerName": "Fibargroup",
+//                    "mac": null,
+//                    "location": null,
+//                    "deviceType": "watermeter",
+//                    "model": "0B00-1001",
+//                    "swVersion": null,
+//                    "fwVersion": null,
+//                    "hwVersion": null,
+//                    "protocolType": null,
+//                    "bridgeId": null,
+//                    "status": null,
+//                    "statusDetail": null,
+//                    "mute": null,
+//                    "supportedSecurity": null,
+//                    "isSecurity": null,
+//                    "signalStrength": null,
+//                    "sigVersion": null,
+//                    "serialNumber": null,
+//                    "batteryLevel": null
+//                }
+//            }
 
         return new ResponseEntity<>(HttpStatus.OK);
     }
