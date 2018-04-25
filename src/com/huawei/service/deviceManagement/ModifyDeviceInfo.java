@@ -27,7 +27,7 @@ public class ModifyDeviceInfo {
 		String appId = Constant.APPID;
 
         //please replace the deviceId, when you use the demo.
-        String deviceId = "ee169c80-11d0-4f37-a344-ccc347f5283c";
+        String deviceId = "1e9185d3-4454-4eeb-92bb-969e79475ff5";
         String urlModifyDeviceInfo = Constant.MODIFY_DEVICE_INFO + "/" + deviceId;
 
         //please replace the following parameter values, when you use the demo.
@@ -45,6 +45,7 @@ public class ModifyDeviceInfo {
         paramModifyDeviceInfo.put("deviceType", deviceType);
         paramModifyDeviceInfo.put("model", model);
         paramModifyDeviceInfo.put("protocolType", protocolType);
+        paramModifyDeviceInfo.put("name", "1411");
 
         String jsonRequest = JsonUtil.jsonObj2Sting(paramModifyDeviceInfo);
 
